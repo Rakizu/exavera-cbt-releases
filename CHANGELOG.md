@@ -7,22 +7,18 @@ Seluruh pembaruan versi resmi aplikasi klien Computer-Based Testing (CBT) Exaver
 ## [v1.0.0-rc.2+2] — 15 November 2026
 
 > **Status Rilis:** Stabil / Release Candidate 2 (Patch 2) — Enterprise Assessment Client  
-> **Berkas Master Enterprise:** `Exavera-CBT-Enterprise-v1.0.0-rc.2-b2-Android-Universal-Release.apk`  
-> **Berkas Alias Unduh Langsung:** `exavera-cbt.apk`  
 > **Target Biner:** Android 8.0+ & Chromebook (ARCVM)  
-> **SHA-256 Checksum:** `d60f9d2cb73ae20c3c0aa20ec636c4e4490c4f213639f60ac3a31468a4e727a4`  
-> **Ukuran Berkas:** 80,105,448 byte (~76.4 MB)
 
----
+### 📦 Artefak Rilis Enterprise & Verifikasi Integritas (SHA-256)
 
-### 📦 Taksonomi Berkas Rilis Enterprise (Canonical Artifacts)
+| Varian & Arsitektur | Nama Berkas Resmi | Ukuran | SHA-256 Checksum |
+| :--- | :--- | :--- | :--- |
+| **Android 64-bit (ARM64 — Utama)** | `Exavera-CBT-Enterprise-v1.0.0-rc.2-b2-Android-arm64-v8a-Release.apk` | 30.6 MiB (`32,066,003` byte) | `c09b836878d45649dcd596477323109f2d5cd279127eac26ec6a584b918be86b` |
+| **Android 32-bit (ARMv7)** | `Exavera-CBT-Enterprise-v1.0.0-rc.2-b2-Android-armeabi-v7a-Release.apk` | 27.2 MiB (`28,487,049` byte) | `a74efcee514813a05a09364d3584eef205f091fa53f2ec46cdb631385b7e664e` |
+| **Chromebook / Intel (x86_64)** | `Exavera-CBT-Enterprise-v1.0.0-rc.2-b2-Android-x86_64-Release.apk` | 33.1 MiB (`34,737,452` byte) | `ea5a9f5825ccbf848198b5bf0b45dba2ae5718ce9d8d04bb38f5b0a5f8746998` |
+| **Mirror In-App Update (`arm64`)** | `exavera-cbt.apk` | 30.6 MiB (`32,066,003` byte) | `c09b836878d45649dcd596477323109f2d5cd279127eac26ec6a584b918be86b` |
 
-| Klasifikasi | Nama Berkas Artefak | Deskripsi Penggunaan |
-| :--- | :--- | :--- |
-| **Tier 1 (Master Enterprise)** | `Exavera-CBT-Enterprise-v1.0.0-rc.2-b2-Android-Universal-Release.apk` | Biner rilis resmi berstandar Enterprise untuk arsip dinas & GitHub Releases |
-| **Tier 2 (Public Enterprise)** | `Exavera-CBT-Enterprise-v1.0.0-rc.2-Android-Universal.apk` | Distribusi publik portal sekolah tanpa tag build number |
-| **Tier 3 (MDM Provisioning)** | `Exavera-CBT-Enterprise-Client.apk` | Pemasangan massal via MDM, Google Workspace Admin (Chromebook) & ADB push |
-| **Tier 4 (CDN Mirror)** | `exavera-cbt.apk` | Tautan unduh permanen otomatis (*In-App Update Engine*) |
+*(Versi Universal Fat APK `Exavera-CBT-Enterprise-v1.0.0-rc.2-b2-Android-Universal-Release.apk` — 76.4 MB juga tersedia pada build lokal).*
 
 ---
 
@@ -62,12 +58,3 @@ Seluruh pembaruan versi resmi aplikasi klien Computer-Based Testing (CBT) Exaver
 - **Fixed Viewport Modal:** Wacana tabel dan teks panjang dapat di-zoom dan digeser dengan lancar di dalam batas viewport yang kokoh.
 - **Micro-Chip Kognitif Sebaris:** Label indikator `[ TOPIK ] [ C2 • MEMAHAMI ]` terpadu rapi di atas kartu soal.
 - **Anti-Glitch Render Engine:** Peredaman *blurRadius* aman untuk Impeller (Vulkan) dan Skia (OpenGL ES).
-
----
-
-### 📦 Panduan Instalasi & Pembaruan
-
-1. Unduh berkas resmi `Exavera-CBT-Enterprise-v1.0.0-rc.2-b2-Android-Universal-Release.apk` atau `exavera-cbt.apk`.
-2. Pasang di perangkat Android (versi 8.0 ke atas) atau Chromebook yang mendukung aplikasi Android (ARCVM).
-3. Jika muncul dialog *"Pasang dari sumber tidak dikenal"*, berikan izin untuk melanjutkan instalasi.
-4. Buka aplikasi dan pastikan versi yang tertera pada pojok layar masuk adalah `v1.0.0-rc.2+2`.
