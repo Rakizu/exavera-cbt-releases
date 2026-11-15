@@ -1,0 +1,22 @@
+{
+  "app_name": "Exavera CBT",
+  "package_name": "com.exavera.app",
+  "latest_version": "1.0.0-rc.2",
+  "latest_build_number": 2,
+  "min_supported_version": "1.0.0-rc.1",
+  "min_supported_build_number": 1,
+  "release_date": "2026-11-15",
+  "is_force_update": false,
+  "title": "Pembaruan Exavera CBT Siap Diunduh",
+  "summary": "Versi terbaru membawa peningkatan stabilitas ujian, dukungan simulasi gladi bersih, dan penyempurnaan tipografi.",
+  "changelog": [
+    "Dukungan otomatis Sesi Gladi Bersih & Simulasi Terpadu",
+    "Bypass gembok submit instan untuk sesi simulasi dan uji coba guru",
+    "Tipografi ragged-right presisi (zero typographic rivers)",
+    "Penyempurnaan gestur zoom tabel wacana"
+  ],
+  "download_url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest/download/exavera-cbt.apk",
+  "release_page_url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest",
+  "file_size_mb": 76.4,
+  "sha256": "203c4acf3b6b89edd732f0464831d81dcacfd7de13ea6ee852255164708f6f1a"
+}
