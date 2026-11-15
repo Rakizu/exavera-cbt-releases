@@ -8,15 +8,15 @@
   "release_date": "2026-11-15",
   "is_force_update": false,
   "title": "Pembaruan Exavera CBT Siap Diunduh",
-  "summary": "Versi terbaru membawa peningkatan stabilitas ujian, dukungan simulasi gladi bersih, dan penyempurnaan tipografi.",
+  "summary": "Versi terbaru membawa perbaikan validasi Nuke TOTP dinamis, peningkatan stabilitas ujian, dan integrasi gladi bersih.",
   "changelog": [
+    "Perbaikan validasi kode Nuke TOTP (Factory Reset) asinkron dari Android Keystore",
     "Dukungan otomatis Sesi Gladi Bersih & Simulasi Terpadu",
     "Bypass gembok submit instan untuk sesi simulasi dan uji coba guru",
-    "Tipografi ragged-right presisi (zero typographic rivers)",
-    "Penyempurnaan gestur zoom tabel wacana"
+    "Penyempurnaan tipografi left-aligned dan kestabilan UI"
   ],
   "download_url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest/download/exavera-cbt.apk",
   "release_page_url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest",
   "file_size_mb": 76.4,
-  "sha256": "203c4acf3b6b89edd732f0464831d81dcacfd7de13ea6ee852255164708f6f1a"
+  "sha256": "d60f9d2cb73ae20c3c0aa20ec636c4e4490c4f213639f60ac3a31468a4e727a4"
 }
