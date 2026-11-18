@@ -1,22 +1,23 @@
 {
   "app_name": "Exavera CBT",
   "package_name": "com.exavera.app",
-  "latest_version": "1.0.0-rc.2",
-  "latest_build_number": 2,
+  "latest_version": "1.0.0-rc.3",
+  "latest_build_number": 3,
   "min_supported_version": "1.0.0-rc.1",
   "min_supported_build_number": 1,
   "release_date": "2026-11-18",
   "is_force_update": false,
-  "title": "Pembaruan Exavera CBT Siap Diunduh",
-  "summary": "Versi terbaru membawa peningkatan stabilitas ujian, dukungan simulasi gladi bersih, dan penyempurnaan tipografi.",
+  "title": "Pembaruan Exavera CBT v1.0.0-rc.3 Siap Diunduh",
+  "summary": "Perbaikan layar hitam iOS, sinkronisasi master roster dan filter rombel, badge ruang serta tanggal tugas pengawas dinamis, navigasi Bank Soal & Kisi-Kisi F4, serta distribusi universal 4 platform.",
   "changelog": [
-    "Dukungan otomatis Sesi Gladi Bersih & Simulasi Terpadu",
-    "Bypass gembok submit instan untuk sesi simulasi dan uji coba guru",
-    "Tipografi ragged-right presisi (zero typographic rivers)",
-    "Penyempurnaan gestur zoom tabel wacana"
+    "Perbaikan stabilitas iOS saat masuk ujian dan reset penuh ExamProvider",
+    "Badge Room ID & tanggal tugas pengawas dinamis sesuai jadwal ujian",
+    "Sinkronisasi master roster cloud dan filter chip rombel pengawas",
+    "Menu Bank Soal & Kisi-Kisi resmi F4 untuk peserta serta kalibrasi tipografi RTL Arab",
+    "Distribusi biner universal tunggal untuk Android/Chromebook, iOS, Windows, dan macOS"
   ],
   "download_url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest/download/Exavera-CBT-Android-Chromebook-Universal.apk",
   "release_page_url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest",
   "file_size_mb": 81.2,
-  "sha256": "502b85e604a8b3e78b5ecd7b5f24f54f4589e165a79f196cc7db822a84b95964"
+  "sha256": "022d5e6cefaa4c423afb73ea303f04df2db8596d8d12aab388fcf5e7db8f6c77"
 }
