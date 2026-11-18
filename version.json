@@ -1,23 +1,22 @@
 {
   "app_name": "Exavera CBT",
   "package_name": "com.exavera.app",
-  "latest_version": "1.0.0-rc.3",
-  "latest_build_number": 3,
+  "latest_version": "1.0.0-rc.4",
+  "latest_build_number": 4,
   "min_supported_version": "1.0.0-rc.1",
   "min_supported_build_number": 1,
   "release_date": "2026-11-18",
   "is_force_update": false,
-  "title": "Pembaruan Exavera CBT v1.0.0-rc.3 Siap Diunduh",
-  "summary": "Perbaikan layar hitam iOS, sinkronisasi master roster dan filter rombel, badge ruang serta tanggal tugas pengawas dinamis, navigasi Bank Soal & Kisi-Kisi F4, serta distribusi universal 4 platform.",
+  "title": "Pembaruan Exavera CBT v1.0.0-rc.4 Siap Diunduh",
+  "summary": "Perbaikan penuh halaman Kisi-Kisi Siswa via RPC Supabase aman anon, pencocokan lintas prefix PKG-EXAM, optimasi tampilan 320px serta zoom lembar F4, dan ikon peluncur transparan proporsional di Android dan Desktop.",
   "changelog": [
-    "Perbaikan stabilitas iOS saat masuk ujian dan reset penuh ExamProvider",
-    "Badge Room ID & tanggal tugas pengawas dinamis sesuai jadwal ujian",
-    "Sinkronisasi master roster cloud dan filter chip rombel pengawas",
-    "Menu Bank Soal & Kisi-Kisi resmi F4 untuk peserta serta kalibrasi tipografi RTL Arab",
-    "Distribusi biner universal tunggal untuk Android/Chromebook, iOS, Windows, dan macOS"
+    "Perbaikan halaman Kisi-Kisi Siswa lewat RPC aman anon (tanpa kebocoran questionText/kunci) dan pencocokan PKG-EXAM",
+    "Optimasi kartu Kisi-Kisi bebas overflow 320px, kontras WCAG AA, dan pinch-to-zoom auto-fit lembar F4",
+    "Ikon peluncur transparan untuk macOS/Windows dan perbaikan inset ganda ikon adaptif Android",
+    "Seluruh perbaikan v1.0.0-rc.3 (layar hitam iOS, master roster, badge ruang pengawas dinamis)"
   ],
   "download_url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest/download/Exavera-CBT-Android-Chromebook-Universal.apk",
   "release_page_url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest",
-  "file_size_mb": 81.2,
-  "sha256": "022d5e6cefaa4c423afb73ea303f04df2db8596d8d12aab388fcf5e7db8f6c77"
+  "file_size_mb": 81.4,
+  "sha256": "ba07926b41d9b97e3b84d48fc7b7c87e46bb666a9bd41a291105bd09dc0cc08c"
 }
