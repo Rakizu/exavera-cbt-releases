@@ -1,22 +1,22 @@
 {
-  "app_name": "Exavera CBT Enterprise",
+  "app_name": "Exavera CBT",
   "package_name": "com.exavera.app",
   "latest_version": "1.0.0-rc.2",
   "latest_build_number": 2,
   "min_supported_version": "1.0.0-rc.1",
   "min_supported_build_number": 1,
-  "release_date": "2026-11-15",
+  "release_date": "2026-11-18",
   "is_force_update": false,
-  "title": "Pembaruan Exavera CBT Enterprise Siap Diunduh",
-  "summary": "Versi terbaru membawa perbaikan validasi Nuke TOTP dinamis, peningkatan stabilitas ujian, dan integrasi gladi bersih.",
+  "title": "Pembaruan Exavera CBT Siap Diunduh",
+  "summary": "Versi terbaru membawa peningkatan stabilitas ujian, dukungan simulasi gladi bersih, dan penyempurnaan tipografi.",
   "changelog": [
-    "Perbaikan validasi kode Nuke TOTP (Factory Reset) asinkron dari Android Keystore",
     "Dukungan otomatis Sesi Gladi Bersih & Simulasi Terpadu",
     "Bypass gembok submit instan untuk sesi simulasi dan uji coba guru",
-    "Penyempurnaan tipografi left-aligned dan kestabilan UI"
+    "Tipografi ragged-right presisi (zero typographic rivers)",
+    "Penyempurnaan gestur zoom tabel wacana"
   ],
   "download_url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest/download/exavera-cbt.apk",
   "release_page_url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest",
-  "file_size_mb": 30.6,
-  "sha256": "c09b836878d45649dcd596477323109f2d5cd279127eac26ec6a584b918be86b"
+  "file_size_mb": 81.1,
+  "sha256": "b5b6eab700748a516f8b9a0587e4023c2ff6534caff3354209e51c0e4a6f6f84"
 }
