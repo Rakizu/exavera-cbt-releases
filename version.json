@@ -1,22 +1,49 @@
 {
   "app_name": "Exavera CBT",
   "package_name": "com.exavera.app",
-  "latest_version": "1.0.0-rc.4",
-  "latest_build_number": 4,
+  "latest_version": "1.0.0-rc.5",
+  "latest_build_number": 5,
   "min_supported_version": "1.0.0-rc.1",
   "min_supported_build_number": 1,
-  "release_date": "2026-11-18",
+  "release_date": "2026-11-19",
   "is_force_update": false,
-  "title": "Pembaruan Exavera CBT v1.0.0-rc.4 Siap Diunduh",
-  "summary": "Perbaikan penuh halaman Kisi-Kisi Siswa via RPC Supabase aman anon, pencocokan lintas prefix PKG-EXAM, optimasi tampilan 320px serta zoom lembar F4, dan ikon peluncur transparan proporsional di Android dan Desktop.",
+  "title": "Pembaruan Exavera CBT v1.0.0-rc.5 Siap Diunduh",
+  "summary": "Hadir dengan sistem cek pembaruan otomatis realtime melalui Supabase Realtime, dukungan tautan unduh universal per sistem operasi (Android/Chromebook, iOS/iPadOS, macOS, Windows), banner pengingat di dasbor, dan paritas cek pembaruan pada portal Pengawas.",
   "changelog": [
-    "Perbaikan halaman Kisi-Kisi Siswa lewat RPC aman anon (tanpa kebocoran questionText/kunci) dan pencocokan PKG-EXAM",
-    "Optimasi kartu Kisi-Kisi bebas overflow 320px, kontras WCAG AA, dan pinch-to-zoom auto-fit lembar F4",
-    "Ikon peluncur transparan untuk macOS/Windows dan perbaikan inset ganda ikon adaptif Android",
-    "Seluruh perbaikan v1.0.0-rc.3 (layar hitam iOS, master roster, badge ruang pengawas dinamis)"
+    "Notifikasi pembaruan otomatis realtime lewat kanal Supabase public.app_releases dengan fallback GitHub dan cache-buster",
+    "Resolusi tautan biner universal sesuai OS perangkat (APK, IPA, DMG, ZIP) serta perlindungan veto agar dialog tidak mengganggu ujian aktif",
+    "Banner pengingat pembaruan non-intrusif di dasbor Siswa dan Pengawas setelah menunda dialog opsional",
+    "Tombol Periksa Pembaruan di tab Pengaturan serta lembar Profil Pengawas, bebas overflow pada layar 320px",
+    "Seluruh perbaikan v1.0.0-rc.4 (Kisi-Kisi Siswa via RPC aman anon, PKG-EXAM matcher, dan ikon peluncur transparan)"
   ],
   "download_url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest/download/Exavera-CBT-Android-Chromebook-Universal.apk",
   "release_page_url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest",
-  "file_size_mb": 81.4,
-  "sha256": "ba07926b41d9b97e3b84d48fc7b7c87e46bb666a9bd41a291105bd09dc0cc08c"
+  "file_size_mb": 81.5,
+  "sha256": "2b7ee634aafa06b989e07e51c6235ecf0e9dbd4b741d3f7bc8e44564d8e5bce6",
+  "downloads": {
+    "android": {
+      "url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest/download/Exavera-CBT-Android-Chromebook-Universal.apk",
+      "file_name": "Exavera-CBT-Android-Chromebook-Universal.apk",
+      "file_size_mb": 81.5,
+      "sha256": "2b7ee634aafa06b989e07e51c6235ecf0e9dbd4b741d3f7bc8e44564d8e5bce6"
+    },
+    "ios": {
+      "url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest/download/Exavera-CBT-iOS-Universal.ipa",
+      "file_name": "Exavera-CBT-iOS-Universal.ipa",
+      "file_size_mb": 20.8,
+      "sha256": "2548f1ff6771613ef2f6cc93487c869ff3f541ebdb4722447dc92b8fd027ae0c"
+    },
+    "macos": {
+      "url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest/download/Exavera-CBT-macOS-Universal.dmg",
+      "file_name": "Exavera-CBT-macOS-Universal.dmg",
+      "file_size_mb": 29.9,
+      "sha256": "30052feacf76e77a05dea9441e02763852fbdfef6451e2d327191e1b8b58c613"
+    },
+    "windows": {
+      "url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest/download/Exavera-CBT-Windows-Universal.zip",
+      "file_name": "Exavera-CBT-Windows-Universal.zip",
+      "file_size_mb": 19.1,
+      "sha256": "2b83b48d0e2924796c89504c4047b213e4db6413420c0217103e8762094fe2fa"
+    }
+  }
 }
