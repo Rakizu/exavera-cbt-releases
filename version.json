@@ -1,49 +1,50 @@
 {
   "app_name": "Exavera CBT",
   "package_name": "com.exavera.app",
-  "latest_version": "1.0.0-rc.5",
-  "latest_build_number": 5,
+  "latest_version": "1.0.0-rc.6",
+  "latest_build_number": 6,
   "min_supported_version": "1.0.0-rc.1",
   "min_supported_build_number": 1,
   "release_date": "2026-11-19",
   "is_force_update": false,
-  "title": "Pembaruan Exavera CBT v1.0.0-rc.5 Siap Diunduh",
-  "summary": "Hadir dengan sistem cek pembaruan otomatis realtime melalui Supabase Realtime, dukungan tautan unduh universal per sistem operasi (Android/Chromebook, iOS/iPadOS, macOS, Windows), banner pengingat di dasbor, dan paritas cek pembaruan pada portal Pengawas.",
+  "title": "Pembaruan Exavera CBT v1.0.0-rc.6 Siap Diunduh",
+  "summary": "Menambahkan mesin getar sentuhan halus yang selalu aktif di kontrol interaktif Siswa dan Pengawas melalui jalur Android USAGE_MEDIA, preferensi Atomic JSON, serta perbaikan tata letak baris profil pada layar 320px.",
   "changelog": [
-    "Notifikasi pembaruan otomatis realtime lewat kanal Supabase public.app_releases dengan fallback GitHub dan cache-buster",
-    "Resolusi tautan biner universal sesuai OS perangkat (APK, IPA, DMG, ZIP) serta perlindungan veto agar dialog tidak mengganggu ujian aktif",
-    "Banner pengingat pembaruan non-intrusif di dasbor Siswa dan Pengawas setelah menunda dialog opsional",
-    "Tombol Periksa Pembaruan di tab Pengaturan serta lembar Profil Pengawas, bebas overflow pada layar 320px",
-    "Seluruh perbaikan v1.0.0-rc.4 (Kisi-Kisi Siswa via RPC aman anon, PKG-EXAM matcher, dan ikon peluncur transparan)"
+    "Mesin getar sentuhan halus Android melalui kanal exam_app/tactile_haptics dengan VibrationAttributes.USAGE_MEDIA (API 33+) agar umpan balik taktil tetap aktif saat setelan Touch feedback sistem dimatikan",
+    "Kebijakan antispam debounce 25 ms (dengan bypass untuk heavyAlert), fallback iOS Taptic Engine, dan mode no-op aman di desktop serta pengujian",
+    "Sakelar Getar Sentuhan Halus di Profil Siswa dan Pengaturan Pengawas tersimpan lewat Atomic JSON (tactile_haptics_prefs_v1.json) dengan bawaan aktif",
+    "Cakupan penuh umpan balik sentuh pada BouncyPress, tombol dasbor, navigasi soal, scanner, banner dan dialog pembaruan, serta portal Pengawas",
+    "Mengganti emoji pada tombol uji getar Pengawas dengan PhosphorIconsRegular.vibrate serta memperbaiki 3 celah overflow teks pada layar 320px di PremiumProfileSheet",
+    "Mempertahankan seluruh pembaruan v1.0.0-rc.5 (cek rilis realtime Supabase, tautan biner universal 4 OS, dan banner pembaruan)"
   ],
   "download_url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest/download/Exavera-CBT-Android-Chromebook-Universal.apk",
   "release_page_url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest",
-  "file_size_mb": 81.5,
-  "sha256": "2b7ee634aafa06b989e07e51c6235ecf0e9dbd4b741d3f7bc8e44564d8e5bce6",
+  "file_size_mb": 81.6,
+  "sha256": "085ec9fad2122e4e5c373259a75891e2716c54c6d9b5190b78b8ba35b7d11613",
   "downloads": {
     "android": {
       "url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest/download/Exavera-CBT-Android-Chromebook-Universal.apk",
       "file_name": "Exavera-CBT-Android-Chromebook-Universal.apk",
-      "file_size_mb": 81.5,
-      "sha256": "2b7ee634aafa06b989e07e51c6235ecf0e9dbd4b741d3f7bc8e44564d8e5bce6"
+      "file_size_mb": 81.6,
+      "sha256": "085ec9fad2122e4e5c373259a75891e2716c54c6d9b5190b78b8ba35b7d11613"
     },
     "ios": {
       "url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest/download/Exavera-CBT-iOS-Universal.ipa",
       "file_name": "Exavera-CBT-iOS-Universal.ipa",
       "file_size_mb": 20.8,
-      "sha256": "2548f1ff6771613ef2f6cc93487c869ff3f541ebdb4722447dc92b8fd027ae0c"
+      "sha256": "01701dc625e44c4c01b47a35a955d68f83ecb49bb82101b55a87a701bb110f32"
     },
     "macos": {
       "url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest/download/Exavera-CBT-macOS-Universal.dmg",
       "file_name": "Exavera-CBT-macOS-Universal.dmg",
-      "file_size_mb": 29.9,
-      "sha256": "30052feacf76e77a05dea9441e02763852fbdfef6451e2d327191e1b8b58c613"
+      "file_size_mb": 29.7,
+      "sha256": "07369038353c8a8024babd2afae2ecedd6c1ebefd8d0453ff681cc0610dbe5bd"
     },
     "windows": {
       "url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest/download/Exavera-CBT-Windows-Universal.zip",
       "file_name": "Exavera-CBT-Windows-Universal.zip",
       "file_size_mb": 19.1,
-      "sha256": "2b83b48d0e2924796c89504c4047b213e4db6413420c0217103e8762094fe2fa"
+      "sha256": "91d06aef87cd5843b7699a5dc815fa3a32b49a681c9fe76907d5bf3821bcda93"
     }
   }
 }
