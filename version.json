@@ -1,50 +1,51 @@
 {
   "app_name": "Exavera CBT",
   "package_name": "com.exavera.app",
-  "latest_version": "1.0.0-rc.6",
-  "latest_build_number": 6,
+  "latest_version": "1.0.0-rc.8",
+  "latest_build_number": 8,
   "min_supported_version": "1.0.0-rc.1",
   "min_supported_build_number": 1,
-  "release_date": "2026-11-19",
+  "release_date": "2026-11-20",
   "is_force_update": false,
-  "title": "Pembaruan Exavera CBT v1.0.0-rc.6 Siap Diunduh",
-  "summary": "Menambahkan mesin getar sentuhan halus yang selalu aktif di kontrol interaktif Siswa dan Pengawas melalui jalur Android USAGE_MEDIA, preferensi Atomic JSON, serta perbaikan tata letak baris profil pada layar 320px.",
+  "title": "Pembaruan Exavera CBT v1.0.0-rc.8 Siap Diunduh",
+  "summary": "Memperkenalkan Viscous Fluid Droplet Navigation Engine dengan mekanika fluida 5 fase hidrodinamika sejati (adhesi, jembatan kapiler Sato-Vachhar, busur parabola melayang, kontur asimetris tetesan aerodinamis, serta tumbukan koalesensi osilasi riak teredam), gradien optik presisi Beer-Lambert multi-fase, kilau meniskus atas specular, dan haptik bertingkat.",
   "changelog": [
-    "Mesin getar sentuhan halus Android melalui kanal exam_app/tactile_haptics dengan VibrationAttributes.USAGE_MEDIA (API 33+) agar umpan balik taktil tetap aktif saat setelan Touch feedback sistem dimatikan",
-    "Kebijakan antispam debounce 25 ms (dengan bypass untuk heavyAlert), fallback iOS Taptic Engine, dan mode no-op aman di desktop serta pengujian",
-    "Sakelar Getar Sentuhan Halus di Profil Siswa dan Pengaturan Pengawas tersimpan lewat Atomic JSON (tactile_haptics_prefs_v1.json) dengan bawaan aktif",
-    "Cakupan penuh umpan balik sentuh pada BouncyPress, tombol dasbor, navigasi soal, scanner, banner dan dialog pembaruan, serta portal Pengawas",
-    "Mengganti emoji pada tombol uji getar Pengawas dengan PhosphorIconsRegular.vibrate serta memperbaiki 3 celah overflow teks pada layar 320px di PremiumProfileSheet",
-    "Mempertahankan seluruh pembaruan v1.0.0-rc.5 (cek rilis realtime Supabase, tautan biner universal 4 OS, dan banner pembaruan)"
+    "Viscous Fluid Droplet Navigation Engine: Kinematika 5 fase fluida fisik kontinu (adhesi meniskus, jembatan kapiler Sato-Vachhar, pemutusan Plateau-Rayleigh, busur parabola melayang -4.5dp, dan riak tumbukan redaman osilasi)",
+    "Kekekalan volume fluida terverifikasi matematis (preservasi volume W * H konstan dalam batas deviasi +/- 2.56%)",
+    "Gradien presisi multi-fase berbasis hukum optik Beer-Lambert: gradien vertikal meniskus saat diam, gradien aksial translusen pada leher kapiler, gradien kecepatan linier saat terbang, dan gradien radial riak pendaratan",
+    "Kilau optik meniskus atas (specular reflection highlight) dengan kurva putih semi-transparan (alpha 0.28)",
+    "Proyeksi bayangan difusi dinamis pada bidang tanah yang memudar saat tetesan melayang tinggi, aman dari GPU crash Impeller & Skia (clamp 0..50)",
+    "Koreografi haptik bertingkat: pulsa ringan (AppHaptics.light()) saat jembatan putus dan pulsa seleksi (AppHaptics.selection()) saat tetesan menyatu",
+    "Kontrak kanonikal CANONICAL_VISCOUS_FLUID_DROPLET_NAVIGATION_ENGINE_CONTRACT.md diterbitkan resmi sebagai SSOT"
   ],
   "download_url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest/download/Exavera-CBT-Android-Chromebook-Universal.apk",
   "release_page_url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest",
-  "file_size_mb": 81.6,
-  "sha256": "085ec9fad2122e4e5c373259a75891e2716c54c6d9b5190b78b8ba35b7d11613",
+  "file_size_mb": 81.7,
+  "sha256": "f09a0b60608d46cadcb59a1e042fc73bf54ec941e06cf3b7e39edf30aad723d3",
   "downloads": {
     "android": {
       "url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest/download/Exavera-CBT-Android-Chromebook-Universal.apk",
       "file_name": "Exavera-CBT-Android-Chromebook-Universal.apk",
-      "file_size_mb": 81.6,
-      "sha256": "085ec9fad2122e4e5c373259a75891e2716c54c6d9b5190b78b8ba35b7d11613"
+      "file_size_mb": 81.7,
+      "sha256": "f09a0b60608d46cadcb59a1e042fc73bf54ec941e06cf3b7e39edf30aad723d3"
     },
     "ios": {
       "url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest/download/Exavera-CBT-iOS-Universal.ipa",
       "file_name": "Exavera-CBT-iOS-Universal.ipa",
       "file_size_mb": 20.8,
-      "sha256": "01701dc625e44c4c01b47a35a955d68f83ecb49bb82101b55a87a701bb110f32"
+      "sha256": "00cf4c03c4fa32383919981642226989f98e80868a1f8f3f85be522d60436a89"
     },
     "macos": {
       "url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest/download/Exavera-CBT-macOS-Universal.dmg",
       "file_name": "Exavera-CBT-macOS-Universal.dmg",
-      "file_size_mb": 29.7,
-      "sha256": "07369038353c8a8024babd2afae2ecedd6c1ebefd8d0453ff681cc0610dbe5bd"
+      "file_size_mb": 30.0,
+      "sha256": "bb38a02a1bc3d013d3ef42b98f59f344fa19a35b40954ed324d1950f67b2e82e"
     },
     "windows": {
       "url": "https://github.com/Rakizu/exavera-cbt-releases/releases/latest/download/Exavera-CBT-Windows-Universal.zip",
       "file_name": "Exavera-CBT-Windows-Universal.zip",
       "file_size_mb": 19.1,
-      "sha256": "91d06aef87cd5843b7699a5dc815fa3a32b49a681c9fe76907d5bf3821bcda93"
+      "sha256": "d6adbb3374c6cbe97574c8e7d7d50c31363e195723e78ab6129f62a1f4899950"
     }
   }
 }
